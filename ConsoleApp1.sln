@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{FE061528-4203-47ED-979D-886B00630349}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AULA_4", "AULA_4", "{B4642BB1-7086-376E-E7CA-032AB4CCE52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio1lpr", "AULA_4\Exercicio1lpr\Exercicio1lpr.csproj", "{89507484-76A8-4F6D-A9D1-8927BF485742}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,23 @@ Global
 		{FE061528-4203-47ED-979D-886B00630349}.Release|x64.Build.0 = Release|Any CPU
 		{FE061528-4203-47ED-979D-886B00630349}.Release|x86.ActiveCfg = Release|Any CPU
 		{FE061528-4203-47ED-979D-886B00630349}.Release|x86.Build.0 = Release|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Debug|x64.Build.0 = Debug|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Debug|x86.Build.0 = Debug|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Release|x64.ActiveCfg = Release|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Release|x64.Build.0 = Release|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Release|x86.ActiveCfg = Release|Any CPU
+		{89507484-76A8-4F6D-A9D1-8927BF485742}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89507484-76A8-4F6D-A9D1-8927BF485742} = {B4642BB1-7086-376E-E7CA-032AB4CCE52C}
 	EndGlobalSection
 EndGlobal
