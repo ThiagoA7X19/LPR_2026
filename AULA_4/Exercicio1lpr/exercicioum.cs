@@ -14,6 +14,8 @@ namespace vefnum
             }
             else
             {
+
+                
                 Console.WriteLine("O número é ímpar.");
             }
         }
