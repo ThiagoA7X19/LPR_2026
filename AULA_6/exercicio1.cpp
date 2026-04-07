@@ -12,5 +12,13 @@ int revertnum(int n) {
 }
 
 int main() {
+    int numero;
+    cout << "Digite um número inteiro: ";
+    cin >> numero;
+
+    int numeroInvertido = revertnum(numero);
+    cout << "Número invertido: " << numeroInvertido << endl;
+
+    return 0;   
 
 }
