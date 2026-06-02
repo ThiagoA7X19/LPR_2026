@@ -3,16 +3,16 @@ using System;
 using System.Runtime.CompilerServices;
 class Program
 {
-    static void cadastrarHeroi()
-    {
-        Console.WriteLine("Digite o nomde do herói da Marvel: ");
-        string nome = Console.ReadLine();
-        Console.WriteLine("Digite o poder do herói: ");
-        string poder = Console.ReadLine();
-        Console.WriteLine("Digite a pontuação do herói: ");
-        int pontuacao = int.Parse(Console.ReadLine());
 
-    }
+        static string nome1, nome2, nome3, nome4, nome5;
+       static string poder1, poder2, poder3, poder4, poder5;
+       static int pontuacao1, pontuacao2, pontuacao3, pontuacao4, pontuacao5;
+
+       
+        
+        static void cadastrarHeroi()
+
+    
     static void Main(string[] args)
     {
         int quantidadeHerois = 0;
@@ -22,5 +22,6 @@ class Program
             cadastrarHeroi();
             quantidadeHerois++;
         }
+
     }
 }   
