@@ -5,19 +5,29 @@
         public double altura;
         public double largura;
 
-         public Retangulo(double altura, double largura){
-            this.altura = altura;
-            this.largura = largura;
-            }
+    public double area()
+        {
+            double p = altura * largura;
+            return p;
+            
+        }
+        public double perimetro()
+        {
+            double p = 2 * (altura + largura);
+            return p;
+        }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Retangulo retangulo = new Retangulo(10, 5);
-            Console.WriteLine("Altura: " + retangulo.altura);
-            Console.WriteLine("Largura: " + retangulo.largura);
-
+            Retangulo r = new Retangulo();
+            Console.WriteLine("Digite a altura do retângulo: ");
+            r.altura = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a largura do retângulo: ");
+            r.largura = double.Parse(Console.ReadLine());
+            Console.WriteLine("A área do retângulo é: " + r.area());
+            Console.WriteLine("O perímetro do retângulo é: " + r.perimetro());
         }
     }
 }
